@@ -10,7 +10,7 @@
 /* shared styles */
 #banner,
 main,
-footer {
+.footer-content {
     width: 80%;
     margin: 0px auto;
 }
@@ -176,6 +176,60 @@ header {
     border-radius: 8px;
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
 }
-.mindset-title {
+
+.margin-bottom {
     margin-bottom: 25px;
+}
+
+/* footer styles */
+footer {
+    background-color: #151414;
+}
+
+.footer-content {
+    padding: 100px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-about {
+    width: 60%;
+}
+
+.footer-subscribe {
+    width: 40%;
+}
+
+.footer-title {
+    color: white;
+}
+
+.footer-description {
+    color: white;
+    line-height: normal;
+    font-size: 18px;
+}
+
+.footer-icons a {
+    display: inline-block;
+    margin-top: 15px;
+    padding-right: 15px;
+}
+
+.footer-subscribe h4 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.footer-subscribe input[type="email"] {
+    display: block;
+    width: 90%;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    background-color: #151414;
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 5px;
 }
